@@ -1,0 +1,21 @@
+Line Graph
+  plotter.plot(x,y)
+
+Scatter Plot
+  plotter.scatter(x,y)
+
+Bar Charts
+  plotter.bar(x,y)
+  plotter.bar(x,y, label = 'Name')
+
+Histograms
+  plotter.hist(occurences, Seperation_lists, histtype = 'bar', rwidth = 0.8)
+
+
+
+Plot settings
+  plotter.show()
+  plotter.xlabel("XTitle")
+  plotter.ylabel("YTitle")
+  plotter.title("Title")
+  plotter.legend()
